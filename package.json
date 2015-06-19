@@ -1,28 +1,30 @@
 {
-  "name": "loopback-gcloud-datastore",
-  "version": "1.0.0",
-  "description": "A Strongloop/Loopback connector for the Google Cloud Datastore database.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/mintedio/loopback-gcloud-datastore.git"
-  },
-  "keywords": [
-    "Loopback",
-    "Google"
-  ],
-  "author": "Ian Zepp <ian.zepp@minted.io>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mintedio/loopback-gcloud-datastore/issues"
-  },
-  "homepage": "https://github.com/mintedio/loopback-gcloud-datastore#readme",
-  "dependencies": {
-    "gcloud": "^0.15.0",
-    "lodash": "^3.9.3",
-    "loopback-datasource-juggler": "^2.30.1"
-  }
+    "name": "loopback-connector-gcloud",
+    "version": "0.1.0",
+    "description": "A Strongloop/Loopback connector for the Google Cloud Datastore database.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/mintedio/loopback-connector-gcloud.git"
+    },
+    "keywords": [
+        "Loopback",
+        "Google"
+    ],
+    "author": "Ian Zepp <ian.zepp@minted.io>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mintedio/loopback-connector-gcloud/issues"
+    },
+    "homepage": "https://github.com/mintedio/loopback-connector-gcloud#readme",
+    "dependencies": {
+        "assert": "^1.3.0",
+        "gcloud": "^0.15.0",
+        "lodash": "^3.9.3",
+        "loopback-datasource-juggler": "^2.30.1",
+        "q": "^1.4.1"
+    }
 }
