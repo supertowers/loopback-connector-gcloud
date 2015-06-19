@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/mintedio/loopback-google-datastore/issues"
   },
-  "homepage": "https://github.com/mintedio/loopback-google-datastore#readme"
+  "homepage": "https://github.com/mintedio/loopback-google-datastore#readme",
+  "dependencies": {
+    "loopback-datasource-juggler": "^2.30.1"
+  }
 }
