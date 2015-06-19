@@ -1,0 +1,23 @@
+{
+  "name": "loopback-google-datastore",
+  "version": "1.0.0",
+  "description": "A Strongloop/Loopback connector for the Google Cloud Datastore database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mintedio/loopback-google-datastore.git"
+  },
+  "keywords": [
+    "Loopback",
+    "Google"
+  ],
+  "author": "Ian Zepp <ian.zepp@minted.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mintedio/loopback-google-datastore/issues"
+  },
+  "homepage": "https://github.com/mintedio/loopback-google-datastore#readme"
+}
