@@ -11,15 +11,28 @@
         "url": "git+ssh://git@github.com/mintedio/loopback-connector-gcloud.git"
     },
     "keywords": [
-        "Loopback",
-        "Google"
+        "MintedIO",
+        "StrongLoop",
+        "LoopBack",
+        "DataSource",
+        "Connector",
+        "Database",
+        "Google",
+        "Cloud"
     ],
     "author": "Ian Zepp <ian.zepp@minted.io>",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/mintedio/loopback-connector-gcloud/issues"
     },
-    "homepage": "https://github.com/mintedio/loopback-connector-gcloud#readme",
+    "homepage": "https://github.com/mintedio/loopback-connector-gcloud",
+    "maintainers": [{
+        "name": "ianzepp",
+        "email": "ian.zepp@gmail.com"
+    }, {
+        "name": "mintedio",
+        "email": "hello@minted.io"
+    }],
     "dependencies": {
         "assert": "^1.3.0",
         "gcloud": "^0.15.0",
