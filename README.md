@@ -13,8 +13,8 @@ In order for the connector to load property, you have to add the gcloud definiti
 In a production Google Compute Engine environment, **projectId** is the only required property.
 
 ```json
-"gcloud-datasource": {
-    "name": "gcloud-datasource",
+"gcloud-datastore": {
+    "name": "gcloud-datastore",
     "connector": "gcloud",
     "projectId": "<project-id-here>"
 }
@@ -23,8 +23,8 @@ In a production Google Compute Engine environment, **projectId** is the only req
 If you are running locally, and calling out to the Cloud DataStore over a network, then the **keyFilename** and **email** properties are also required. Email is the service email as provided by Google. See #here# in for information on how to configure a service client in the Google Developer Console.
 
 ```json
-"gcloud-datasource": {
-    "name": "gcloud-datasource",
+"gcloud-datastore": {
+    "name": "gcloud-datastore",
     "connector": "gcloud",
     "projectId": "<project-id-here>",
     "keyFilename": "/path/to/your/secret-key.pem",
@@ -39,7 +39,7 @@ In ``server/model-config.json``, set something similar to this:
 ```json
     ...
     "MyModel": {
-        "dataSource": "gcloud-datasource",
+        "dataSource": "gcloud-datastore",
         "public": true
     },
     ...
@@ -97,7 +97,7 @@ Google Cloud DataStore treats the internal IDs in a special way as a (Model, ID)
 
 all(), find(), findById(), create(), updateProperties(), destroyAll()
 
-Logging is mostly in place. Do an ```export DEBUG=*:gcloud-datasource``` before running the server to see all the network stuff.
+Logging is mostly in place. Do an ```export DEBUG=*:gcloud-datastore``` before running the server to see all the network stuff.
 
 ## Things that work funny
 
