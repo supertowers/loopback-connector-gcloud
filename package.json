@@ -1,6 +1,6 @@
 {
     "name": "loopback-connector-gcloud",
-    "version": "0.3.7",
+    "version": "0.3.8",
     "description": "A Strongloop/Loopback connector for the Google Cloud Datastore database.",
     "main": "index.js",
     "scripts": {
@@ -33,7 +33,6 @@
         "name": "mintedio",
         "email": "hello@minted.io"
     }],
-    "readme": "README.md",
     "dependencies": {
         "assert": "^1.3.0",
         "debug": "^2.2.0",
